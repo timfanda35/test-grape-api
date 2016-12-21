@@ -2,10 +2,10 @@
 
 ## Gems
 
-[grape](https://github.com/ruby-grape/grape) API 框架
-[grape-swagger](https://github.com/ruby-grape/grape-swagger) API 文件產生器
-[swagger-ui](https://github.com/swagger-api/swagger-ui) API 文件瀏覽前端
-[vienna](https://github.com/kmikael/vienna) 簡單設定讓 Rack 處理public 靜態文件
+* [grape](https://github.com/ruby-grape/grape) API 框架
+* [grape-swagger](https://github.com/ruby-grape/grape-swagger) API 文件產生器
+* [swagger-ui](https://github.com/swagger-api/swagger-ui) API 文件瀏覽前端
+* [vienna](https://github.com/kmikael/vienna) 簡單設定讓 Rack 處理public 靜態文件
 
 ## config.ru 範例
 
@@ -55,7 +55,6 @@ if (url && url.length > 1) {
 
 修改成
 
-```javascript
 ```javascript
  if (url && url.length > 1) {
    url = decodeURIComponent(url[1]);

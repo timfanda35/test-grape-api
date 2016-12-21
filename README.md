@@ -56,12 +56,11 @@ if (url && url.length > 1) {
 修改成
 
 ```javascript
- if (url && url.length > 1) {
-   url = decodeURIComponent(url[1]);
- } else {
-   url = "http://localhost:9292/swagger_doc.json";
- }
- ```
+if (url && url.length > 1) {
+  url = decodeURIComponent(url[1]);
+} else {
+  url = "http://localhost:9292/swagger_doc.json";
+}
 ```
 
 ## Execute
